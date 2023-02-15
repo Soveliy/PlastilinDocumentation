@@ -179,7 +179,85 @@
         <span class="checkbox__label">Описание</span>
     </label>
 ```
+
+**Шапка**
+```
+  <header class="header">
+        <div class="header__top">
+            <div class="header__container">
+                <div class="header__row">
+                    <div class="header__mainMenu mainMenu">
+                        <nav class="mainMenu__nav">
+                            <ul class="mainMenu__list">
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                                <li class="mainMenu__item">
+                                    <a href="#" class="mainMenu__link"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__buttons">
+                        <button class="header__button">
+                            <img src="" alt="" class="header__icon">
+                        </button>
+                    </div>
+                    <div class="header__links">
+                        <a href="#" class="header__link"></a>
+                        <a href="#" class="header__link"></a>
+                        <a href="#" class="header__link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+           <div class="container">
+                <div class="header__row">
+                    <a href="/" class="header__logo logo">
+                        <img class="logo__images" src="" alt="">
+                    </a>
+                    <div class="header__search search">
+                            <div class="search__wrap">
+                                <div class="search__inputContainer">
+                                    <input type="text" class="search__input">
+                                    <button class="search__button">
+                                        <img class="search__buttonIcon" src="" alt="">
+                                    </button>
+                                </div>
+                                <div class="search__dropdown">
+                                    <div class="search__item">
+                                        <a href="#" class="search__itemLink"></a>
+                                    </div>
+                                    <div class="search__item">
+                                        <a href="#" class="search__itemLink"></a>
+                                    </div>
+                                    <div class="search__showmoreContainer">
+                                        <a href="#" class="search__showMore"></a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </header>
+```
+
 **Часто используемые классы** 
+
 ***Блоки***
 
 page — корневой элемент страницы
@@ -201,6 +279,7 @@ aside — блок с дополнительной информацией
 widget — виджет, например, в боковой колонке
 
 ***Раскладка***
+
 wrapper, wrap — обёртка, обычно внешняя
 
 inner — внутренняя обёртка
@@ -214,6 +293,7 @@ row — контейнер в виде строки
 col, column — контейнер в виде столбца
 
 ***Текст***
+
 title, subject, heading, headline, caption — заголовок
 
 subtitle — подзаголовок
@@ -231,16 +311,19 @@ excerpt — отрывок текста, обычно используется �
 copyright, copy — копирайт
 
 ***Ссылки, кнопки***
+
 link — ссылка
 
 button, btn — кнопка, например, для отправки формы
 
 ***Списки***
+
 list, items — список
 
 item — элемент списка
 
 ***Изображения***
+
 image, img, picture, pic — картинка
 
 icon — иконка
@@ -252,6 +335,7 @@ userpic, avatar — юзерпик, маленькая картинка поль
 thumbnail, thumb — миниатюра, уменьшенное изображение
 
 ***Элементы управления***
+
 control — элемент управления, например, стрелки «Вперёд/назад» в фотогалерее, кнопки управления слайдером
 
 dropdown — выпадающий список
@@ -275,6 +359,7 @@ preview — анонс, отрывок, например новости или �
 breadcrumbs — навигационная цепочка, «хлебные крошки»
 
 ***Медиавыражения***
+
 phone, mobile — мобильные устройства
 
 phablet — телефоны с большим экраном (6-7″)
@@ -286,6 +371,7 @@ notebook, laptop — ноутбуки
 desktop — настольные компьютеры
 
 ***Размеры***
+
 tiny, xs — маленький, крохотный
 
 small, sm — небольшой
@@ -301,6 +387,7 @@ narrow — узкий
 wide — широкий
 
 ***Состояния***
+
 active, current — активный элемент, например, текущий пункт меню
 
 hidden — скрытый элемент
@@ -314,6 +401,7 @@ success — статус успешного выполнения задачи
 pending — состояние ожидания, например, перед сменой статуса на error или success
 
 ***Дополнительно***
+
 socials — блок иконок соцсетей
 
 advertisement, adv, commercial, promo — рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)
